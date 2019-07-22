@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MessagePack serializer implementation for Java
+Bundle-SymbolicName: msgpack-core-osgi
+Bundle-Version: 0.8.17
+Automatic-Module-Name: msgpack-core-osgi
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: org.msgpack.core;version="0.8.17",
+ org.msgpack.core.annotations;version="0.8.17",
+ org.msgpack.core.buffer;version="0.8.17",
+ org.msgpack.value;version="0.8.17",
+ org.msgpack.value.impl;version="0.8.17"
+Bundle-Vendor: MessagePack
